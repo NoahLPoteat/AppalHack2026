@@ -19,3 +19,4 @@ class scene:
 
 class dialogue:
     type = "" #text, choice, sprite
+    text = ""
