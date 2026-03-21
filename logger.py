@@ -2,7 +2,7 @@ from datetime import datetime
 from pathlib import Path
 import io
 
-
+#Called before the main loop
 def create_log_file():
   global log_file 
   cur_time = datetime.now()
@@ -22,10 +22,11 @@ def push_log(message: str, is_error: bool = False):
 
   log_file.write(time_f  + "| " + message + " | " + post_fix + "\n")
 
+# Called when loop ends
 def close_logger():
   log_file.close()
 
-create_log_file()
-push_log("testing logger")
-push_log("Logger Working")
-close_logger()
+# create_log_file()
+# push_log("testing logger")
+# push_log("Logger Working")
+# close_logger()
