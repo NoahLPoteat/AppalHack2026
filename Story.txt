@@ -16,7 +16,7 @@ Wake up as swanson, a cutesey scene. (could make a funny paint room or steal som
 
 *Swanson walks in slightly late, where we see Prof Waters pointing to a whiteboard/projector(it has a white circle that says 'AI' in the middle with the red line through it ykwim)
 
-"...and Grok can't make your Pumpkin Spice Latte for you" **Can rewrite, but do funny joke about Ai < **
+"...and Grok can't make your customers' Pumpkin Spice Latte for you" **Can rewrite, but do funny joke about Ai < **
 
 **Since he is late, there aren't many seats available. Swanson doesn't want to stay standing, so he nabs a seat close to the wall (let's use 318 for this). To the wall side is Cindy C, who is dilligently paying attention to the Professor.)
 
@@ -101,9 +101,75 @@ Time to go home for the day.
 
 Swanson is playing on his computer(which is a (microwave? potato?) It is hooked up to his monitor and running DOOM).
 
--He wastes time here. Time skip. HE goes to sleep.-
+-He wastes time here. Time skip. He goes to sleep.-
 
 - NEW DAY-
+
+-Same routine as last time-- tbh can just straight up reuse scenes up to the arrival at Anne Belk-
+
+-It is another day in [PROFESSORS CLASS]. Again, Swanson sits next to Cindy C.-
+
+-Swanson pulls open [insert IDE here] and works on assignment for another class while he waits for teacher to arrive-
+
+-Types away...we could have a display screen.. maybe just a main in JAva? or we could just do squiqqles..-
+
+-C is peering over at Swanson's computer-
+
+"Why are you using python for that?" Came a sudden sneer.
+
+-Swanson is startled-
+
+"Excuse me??"
+
+Cindy C rolls her eyes, clearly annoyed. 
+
+-COULD DO THIS SCENE BETTER MAYBE WE SEE-
+
+"How are you in **Capstone** and you're still using Python instead of... oh I don't know... a sensible language?"
+
+Swanson is fully ready to engage in this conversation. It's not super hostile, but there is tension.
+
+"This is for my statistics homework..."
+
+-Immediately, C looks embarassed. She quickly regrets her initial disposition.-
+
+"Sorry. I just meant that I think you're capable of using a more efficient language...if you'd like, I could take some time 
+to tutor you in a better one."
+
+**CHOICES**
+[SWANSON]
+A) "Sure, I'd love to sometime. I'm free this weekend?" (+1 relationship point)
+
+B) "...What's your problem?"(-1 relationship point)
+
+[Cindy C]
+A)"Okay, I'll be at the library until later." -scribbles down her number and thrusts it in Swanson's hands.- "I'm Cindy, by the way"
+
+B)- angry face/blush from embarassment- "Okay, but when your program takes a week to run, don't come crying to me." 
+
+-rest of class goes by awkwardly-
+
+Swanson goes to Walmart. He is shopping when he collides with Java James.
+
+-insert sound effect-
+
+"OOF!"
+
+Java James swoons and starts to fall. Instinctively, Swanson reaches his arms out and catches him. Java catches his eyes, and blushes.
+
+"Thank you." \
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
