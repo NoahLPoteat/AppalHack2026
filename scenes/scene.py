@@ -20,3 +20,4 @@ class scene:
 class dialogue:
     type = "" #text, choice, sprite
     text = ""
+    speaker = "" #name on text box, and highlighting sprites
