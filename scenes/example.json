@@ -1,0 +1,30 @@
+{
+    "scene_1_name" : {
+        "bg_img" : "filename.extension", # ex home_bg_1.png
+        "characters" : [
+            {"id": "charid", "pos": [0,0]} #if pos = 0,0 then the character will sit in the center
+        ],
+
+        "dialogue": [
+            {"type": "text", "content": "this text will show up when we transition to this scene"},
+            {"type": "text", "content": "this text will show up after the user has clicked once"},
+
+            {
+                "type":choice",
+                "options": [
+                    {"text": "Choice 1, this will go to a different scene", "next_scene": "scene_x_name"}
+                    {"text": "Choice 2, this will stay in this scene", "next_scene": ""} #the "" causes us to stay in scene and see the final dialogue
+                ]
+            }
+
+            {"type": "text", "content": "This option will only show if you click the second choice, We could also have more choices after this"},
+        ],
+
+        "next_scene": "scene_x_name" #default incase we reach end without going to a scene
+
+    }
+ 
+    "scene_2_name" : {
+
+    }
+} 
