@@ -1,10 +1,12 @@
 import pygame
 import logger
-import scenes.scene as Scene
+import scene as Scene
 
 class Window:
   bg_img: pygame.Surface = None
-  text_box: pygame.Surface #= load(textbox.png) or something like that
+
+  #= load(textbox.png) or something like that
+  text_box: pygame.Surface = pygame.image.load("Assets/gen/text_box.png") 
   text_box_pos = (40,216) #based on text box being 560x144
   
   dialogue_type: str
@@ -23,7 +25,7 @@ class Window:
     if self.bg_img == None:
         logger.push_log("Unable to find bg_img for scene "
                          + self.cur_scene_name + ", using placeholder", True)
-        self.set_bg(self, "placeholder.png")
+        self.set_bg("placeholder.png")
 
     bg_pos = (0,0)
     screen.blit(self.bg_img, bg_pos)
@@ -79,11 +81,9 @@ class Window:
     pygame.display.flip()
 
     
-
-  def set_dialogue()
     
-  def set_characters(new_chars []):
-      pass
+  # def set_characters(new_chars []):
+  #     pass
  
   def set_dialogue(new_dia: Scene.dialogue):
       pass

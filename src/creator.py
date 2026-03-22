@@ -1,5 +1,5 @@
 import json
-from scene import scene, dialogue
+from src.scene import scene, dialogue
 
 def write(sc):
     n = "./scenes/"+sc.name+".json"

@@ -8,6 +8,8 @@
 
 import logger
 import pygame
+import scene
+import scene_handler
 from window import Window
 
 logger.create_log_file()
@@ -17,6 +19,8 @@ pygame.init()
 
 win_height: int = 640
 win_width: int = 360
+
+
 
 window = Window(win_height, win_width)
 clock = pygame.time.Clock()
@@ -33,14 +37,14 @@ while running:
 
   # here we will reset the screen for the current frame
   window.reset_window()
-
-
   # here we will see if the current scene has changed, or if anything within the scene has changed
   # if anything has changed we will update the window with the setters
   #basically the all the game logic goes right here
 
 
   # here we will update the screen for the current frame now that we have set everything in 
+ 
+
   window.update()
 
 
@@ -49,6 +53,10 @@ while running:
 # main loop here or something
 # make the game here 
 
+
+# #requires us to run the current_scene var 
+# def swap_scene(sc_var: scene, next_scene: scene):
+#   sc_var = next_scene
 
 logger.push_log("Final frame finished. Closing Game...")
 logger.close_logger()

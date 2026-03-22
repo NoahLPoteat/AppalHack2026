@@ -1,0 +1,5 @@
+2026-03-21 20-21-33| Log File made | 
+2026-03-21 20-21-33| Initiation finished, beginning game loop | 
+2026-03-21 20-21-33| Unable to find bg_img for scene , using placeholder | ERROR
+2026-03-21 20-33-52| Closing sequence initiated, game will close at end of frame | 
+2026-03-21 20-33-52| Final frame finished. Closing Game... | 
