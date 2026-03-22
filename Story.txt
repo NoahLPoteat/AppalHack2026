@@ -299,6 +299,24 @@ B) Approach Java James and ask him to be your partner for the Capstone
 
 --if relationship points < 2 (will probably have to refactor this i was kinda inconsistent with point assign)--
 
-**FAIL. THEY SAY THEY HAVE ALREADY FOUND A PARTNER** 
+**FAIL. THEY SAY THEY HAVE ALREADY FOUND A PARTNER. NO CAPSTONE PARTNER FOR YOU** 
 
+--if relationship points >- 2
+
+**PASS. THEY AGREE TO BE YOUR PARTNER. FOR THE CAPSTONE.**
+
+[INSERT WHICHEVER CHARACTER HERE]
+[IF NEITHER DO SWOLE ROUTE]
+
+-Swanson expresses excitement/disappointment at the object of his romance's reaction.-
+
+Since today is the last day before they present an outline, the two characters decide to meet up so that they can finalize the idea for a capstone project.
+
+-For C, we can say the capstone project is a dictionary. For Java, you guys decided on a weather app.
+
+-The two of you have some more tender moments as you plan out your project.-
+
+"Watch out [language-kun...] we almost had a merge conflict. 
+
+*time skip* The day ends, with Swanson thinking about his interactions with 
 
