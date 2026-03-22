@@ -1,0 +1,74 @@
+{
+    "name": "Day2JavaDate",
+    "bg": "placeholder.png",
+    "lines": [
+        {
+            "choices": [],
+            "type": "text",
+            "text": "OOF!",
+            "displayname": "???",
+            "speaker": "none",
+            "emotion": "angry"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "Java James' cart crashes right into Swanson's and somehow he ends up falling!",
+            "displayname": "Java James",
+            "speaker": "Java",
+            "emotion": "basic"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "...Thank you",
+            "displayname": "Java James",
+            "speaker": "java",
+            "emotion": "happy"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "...Thank you. I'm sorry about the other day. ",
+            "displayname": "Java James",
+            "speaker": "java",
+            "emotion": "basic "
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "..Please don't take my good friend, John Java, who's not related in any wayy",
+            "displayname": "Java ",
+            "speaker": "java",
+            "emotion": "sad"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "Can I make it up to you somehow? Want to join my friends and I for board game night?",
+            "displayname": "Java James",
+            "speaker": "java",
+            "emotion": "happy"
+        },
+        {
+            "choices": [
+                {
+                    "text": "Okay, but just know I'm the skeptical type.. hmph!",
+                    "next_scene": "none ",
+                    "transition": false,
+                    "affections": "none",
+                    "response": "none"
+                },
+                {
+                    "text": "I'll see you there!",
+                    "next_scene": "none",
+                    "transition": false,
+                    "affections": "none",
+                    "response": "none"
+                }
+            ],
+            "type": "choice"
+        }
+    ],
+    "next_scene_default": "Day2JavaDate"
+}

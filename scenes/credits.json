@@ -1,0 +1,23 @@
+{
+    "name": "credits",
+    "bg": "test.png",
+    "lines": [
+        {
+            "choices": [],
+            "type": "text",
+            "text": "artist: viv   story: madi   programming: noah, dahlia",
+            "displayname": "thank you",
+            "speaker": "none",
+            "emotion": "basic"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "swanson: swanson   john java: pierce",
+            "displayname": "thank you",
+            "speaker": "none",
+            "emotion": "basic"
+        }
+    ],
+    "next_scene_default": "thanks"
+}
