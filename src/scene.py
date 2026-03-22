@@ -42,7 +42,7 @@ def loadJSON(pathname):
     with open(pathname, "r") as json_data:
         d = json.loads(json_data.read())
         json_data.close()
-    print(d)
+    # print(d)
     sc = scene(d["name"])
     sc.bg = d["bg"]
     sc.lines = d["lines"]

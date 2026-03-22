@@ -25,7 +25,7 @@ win_width: int = 360
 
 
 window = Window(win_height, win_width)
-scene_controller: scene_handler.scene_handler = scene_handler.scene_handler("example3")
+scene_controller: scene_handler.scene_handler = scene_handler.scene_handler("hell")
 clock = pygame.time.Clock()
 running = True
 handled: bool = False

@@ -60,13 +60,12 @@ class Window:
     #Then we need to render each character at their specified position
     # print(self.chars)
     if len(self.chars) == 1:
-      char_pos = (192, 128) #centered for one character
-      print(self.chars[0])
-
+      char_pos = (192, 16) #centered for one character
+      # print(self.chars[0])
       if self.cur_dialogue["type"] == "text":
           
-        char_surface = pygame.image.load(self.chars[0] + self.cur_dialogue["emotion"] + ".png")
-      #screen.blit(char_surface, char_pos)
+        char_surface = pygame.image.load("assets/char_imgs/" + self.chars[0] + self.cur_dialogue["emotion"] + ".png")
+        screen.blit(char_surface, char_pos)
 
     elif len(self.chars) == 2:
       char1_pos = (0,0) #calculate this at some point loser
@@ -130,6 +129,12 @@ class Window:
     
     button_mod: int = 0
     if self.cur_dialogue["type"] == "choice":
+      #render box to have a greyed out background
+      overlay = pygame.Surface((640, 360), pygame.SRCALPHA)
+      overlay.fill((128, 128, 128, 128)) 
+
+      screen.blit(overlay, (0, 0))  
+
       for choice in self.cur_dialogue["choices"]:
         ch: Scene.choice = choice
         button = ChoiceButton.choice_button((self.button_pos_x,
