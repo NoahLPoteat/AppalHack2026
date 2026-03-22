@@ -1,6 +1,6 @@
 {
     "name": "Day1Scene1",
-    "bg": "test.png",
+    "bg": "bedroom.png",
     "lines": [
         {
             "choices": [],

@@ -37,7 +37,7 @@
         {
             "choices": [],
             "type": "text",
-            "text": "..Please don't take my good friend, John Java, who's not related in any wayy",
+            "text": "..Please don't take my good friend, John Java, who's not related in any way shape or form",
             "displayname": "Java ",
             "speaker": "java",
             "emotion": "sad"
@@ -70,5 +70,5 @@
             "type": "choice"
         }
     ],
-    "next_scene_default": "Day2JavaDate"
+    "next_scene_default": "Day2Scene2"
 }

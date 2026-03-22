@@ -1,11 +1,11 @@
 {
     "name": "Day1Scene3",
-    "bg": "test.png",
+    "bg": "classroom_!.png",
     "lines": [
         {
             "choices": [],
             "type": "text",
-            "text": "...and if you use AI...well, just know that Grok can't make those customers' drinks for you.",
+            "text": "...and if you use AI...well, AI can make a data-structure, but can it structure your life?"
             "displayname": "Prof. Brad Rivers",
             "speaker": "none",
             "emotion": "basic"
@@ -13,7 +13,7 @@
         {
             "choices": [],
             "type": "text",
-            "text": "Hello class, my name is professor Brad Rivers and this semester I'I'll be teaching your CAPSTONE class.",
+            "text": "Hello class, my name is professor Brad Rivers and this semester I'll be teaching your CAPSTONE class.",
             "displayname": "Prof Brad Rivers",
             "speaker": "none",
             "emotion": "basic"
@@ -21,7 +21,7 @@
         {
             "choices": [],
             "type": "text",
-            "text": "which as you know, is an oppurtunity to combine your heads with a peer and output a unique showcase of your knowledge.\u001b",
+            "text": "which as you know, is an oppurtunity to combine your heads with a peer and output a unique showcase of your knowledge.",
             "displayname": "Prof Brad Rivers",
             "speaker": "none",
             "emotion": "basic"
@@ -29,7 +29,7 @@
         {
             "choices": [],
             "type": "text",
-            "text": "But for today, we're just going to go over the syllabus.",
+            "text": "So think about that while we go over the syllabus for 5 minutes, and how to kill Grok for 45 minutes.",
             "displayname": "Prof Brad Rivers",
             "speaker": "none",
             "emotion": "happy"

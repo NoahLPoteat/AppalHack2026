@@ -1,6 +1,6 @@
 {
     "name": "Day2CindayDate",
-    "bg": "placeholder.png",
+    "bg": "gazebo_inside.png",
     "lines": [
         {
             "choices": [],
@@ -27,5 +27,5 @@
             "emotion": "happy"
         }
     ],
-    "next_scene_default": "Day2JavaDate"
+    "next_scene_default": "thanks"
 }

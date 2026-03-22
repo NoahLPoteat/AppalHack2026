@@ -1,6 +1,6 @@
 {
     "name": "Day1Scene4",
-    "bg": "placeholder.png",
+    "bg": ".png",
     "lines": [
         {
             "choices": [],
@@ -77,7 +77,7 @@
           {
             "choices": [],
             "type": "text",
-            "text": "I...sorry about him. He really like me for some reason. Nobody knows why.",
+            "text": "I...sorry about him. He just really likes me for some reason. Nobody knows why.",
             "displayname": "John Java",
             "speaker": "java",
             "emotion": "basic"
