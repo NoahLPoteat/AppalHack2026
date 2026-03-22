@@ -1,0 +1,63 @@
+{
+    "name": "Day2Scene2",
+    "bg": "placeholder.png",
+    "lines": [
+        {
+            "choices": [],
+            "type": "text",
+            "text": "*Is sitting down using Python...*",
+            "displayname": "Self",
+            "speaker": "none",
+            "emotion": "basic"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "How are you in CAPSTONE and you're still using Python??",
+            "displayname": "???",
+            "speaker": "cindy",
+            "emotion": "angry"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "...This is for my statistics homework...",
+            "displayname": "Self",
+            "speaker": "none",
+            "emotion": "sad"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "Oh. Well, if you want a chance to learn a REAL language, I offer tutoring. ",
+            "displayname": "Cindy C",
+            "speaker": "cindy",
+            "emotion": "basic"
+        },
+        {
+            "choices": [
+                {
+                    "text": "...No??? What's your problem?",
+                    "next_scene": "none ",
+                    "transition": false,
+                    "affections": "noen ",
+                    "response": "none"
+                }
+            ],
+            "type": "choice"
+        },
+        {
+            "choices": [
+                {
+                    "text": "O-Okay, but when your program takes until next week to run, don't come crying to me!!",
+                    "next_scene": "none",
+                    "transition": false,
+                    "affections": "none",
+                    "response": "none"
+                }
+            ],
+            "type": "choice"
+        }
+    ],
+    "next_scene_default": "Day2Scene3"
+}

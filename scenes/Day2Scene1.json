@@ -1,0 +1,15 @@
+{
+    "name": "Day2Scene1",
+    "bg": "placeholder.png",
+    "lines": [
+        {
+            "choices": [],
+            "type": "text",
+            "text": "Day two of school...! I can't wait to start taking Programming Languages..! ",
+            "displayname": "Self",
+            "speaker": "none",
+            "emotion": "happy"
+        }
+    ],
+    "next_scene_default": "Day2Scene2"
+}
