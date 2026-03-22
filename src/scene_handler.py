@@ -22,10 +22,10 @@ class scene_handler:
     if self.current_scene != None:
       if self.current_scene.name == scene_name:
         return
+    self.line_num = 0
     self.current_scene = scene.loadJSON("scenes/" + scene_name + ".json")
     self.current_lines = self.current_scene.lines
-    self.line_num = 0
-    self.current_scene
+    # self.current_scene
     logger.push_log("Scene set to " + scene_name)
 
     #if window.transitioning == true

@@ -26,6 +26,7 @@ class choice_button:
   def draw(self, screen):
       # Change color on hover
       mouse_pos = pygame.mouse.get_pos()
+      # print(mouse_pos)
       current_img = self.hvr_img if self.rect.collidepoint(mouse_pos) else self.norm_img
       
       screen.blit(current_img, self.pos)
@@ -35,13 +36,16 @@ class choice_button:
       text_rect = text_surf.get_rect(center=self.rect.center)
       screen.blit(text_surf, text_rect)
 
-  def click(self, event):
-    if event.type == pygame.MOUSEBUTTONDOWN:
-       if event.button == 1:
-          if self.rect.collidepoint(event.pos):
-             self.on_click()
+  def click(self, events):
+    for event in events:
+      # print (event)
+      if event.type == pygame.MOUSEBUTTONDOWN:
+         if event.button == 1:
+            if self.rect.collidepoint(event.pos):
+               self.on_click()
 
   def on_click(self):
+    print(self.dest)
     if self.dest == None:
        self.scene_hand.set_scene("hell")
     else:

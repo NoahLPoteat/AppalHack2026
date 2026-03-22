@@ -28,8 +28,8 @@
             "type": "choice",
             "choices" : [
               { 
-                "text": "Stay",
-                "next_scene": "test",
+                "text": "go to testing",
+                "next_scene": "testing",
                 "transition": "true"
               },
               {

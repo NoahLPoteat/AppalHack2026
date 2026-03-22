@@ -7,6 +7,8 @@ import textwrap
 class Window:
   bg_img: pygame.Surface = None
 
+  
+
   #= load(textbox.png) or something like that
   text_box: pygame.Surface = pygame.image.load("assets/gen/text_box.png") 
   text_box_pos = (40,216) #based on text box being 560x144
@@ -37,6 +39,7 @@ class Window:
         self.font = pygame.font.SysFont("Serif", 30)
 
   def update(self):
+  def update(self, scene_handler, event = None):
     
     #here we will layer the sprites to the screen using blit
 
@@ -81,46 +84,40 @@ class Window:
         if self.cur_dialogue["type"] == "text":
           if char == self.cur_dialogue["speaker"]:
             if n == 0: #char 1 is talking
-              char1_surface = pygame.image.load("assets/char_imgs/" +
-                                        self.chars[0] + self.cur_dialogue["emotion"] + ".png")
+              if n == 0: #char 1 is talking
+                char1_surface = pygame.image.load("assets/char_imgs/" +
+                                          self.chars[0] + self.cur_dialogue["emotion"] + ".png")
 
-              char2_surface = pygame.image.load("assets/char_imgs/" +
-                                        self.chars[1] + "basic" + ".png")
-              
+                char2_surface = pygame.image.load("assets/char_imgs/" +
+                                          self.chars[1] + "basic" + ".png")
+                
 
-              char2_surface.set_alpha(100)
+                char2_surface.set_alpha(100)
 
 
-              screen.blit(char1_surface, char1_pos)
-              screen.blit(char2_surface, char2_pos)
+                screen.blit(char1_surface, char1_pos)
+                screen.blit(char2_surface, char2_pos)
 
-            else:
-              char1_surface = pygame.image.load("assets/char_imgs/" +
-                                        self.chars[0] + "basic" + ".png")
+              else:
+                char1_surface = pygame.image.load("assets/char_imgs/" +
+                                          self.chars[0] + "basic" + ".png")
 
-              char2_surface = pygame.image.load("assets/char_imgs/" +
-                                        self.chars[1] + self.cur_dialogue["emotion"] + ".png")
-              
-              char1_surface.set_alpha(100)
+                char2_surface = pygame.image.load("assets/char_imgs/" +
+                                          self.chars[1] + self.cur_dialogue["emotion"] + ".png")
+                
+                char1_surface.set_alpha(100)
 
-              screen.blit(char1_surface, char1_pos)
-              screen.blit(char2_surface, char2_pos)
+                screen.blit(char1_surface, char1_pos)
+                screen.blit(char2_surface, char2_pos)
         else:
           char1_surface = pygame.image.load("assets/char_imgs/" +
-                                        self.chars[0] + "basic" + ".png")
-
+                                          self.chars[0] + "basic" + ".png")
           char2_surface = pygame.image.load("assets/char_imgs/" +
-                                        self.chars[1] + "basic" + ".png")
-              
+                                          self.chars[1] + "basic" + ".png")
           char1_surface.set_alpha(100)
           char2_surface.set_alpha(100)
-
-
           screen.blit(char1_surface, char1_pos)
           screen.blit(char2_surface, char2_pos)
-
-           
-
         n += 1
 
 
@@ -182,10 +179,10 @@ class Window:
         ch: Scene.choice = choice
         button = ChoiceButton.choice_button((self.button_pos_x,
                                  (self.button_pos_y + (self.button_height * button_mod) + self.button_margin * button_mod - 1 )),
-                               ch["text"], self, ch["next_scene"]
+                               ch["text"], scene_handler, ch["next_scene"]
                                )
         button.draw(screen)
-
+        button.click(event)
         button_mod += 1
 
          

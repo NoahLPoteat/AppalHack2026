@@ -28,14 +28,14 @@
             "choices": [
                 {
                     "text": "do it",
-                    "next_scene": "death",
+                    "next_scene": "hell",
                     "transition": true,
                     "affections": "none",
                     "response": "you will do anything a pretty lady tells you to"
                 },
                 {
                     "text": "don't do it",
-                    "next_scene": "none",
+                    "next_scene": "testing",
                     "transition": false,
                     "affections": "c-3",
                     "response": "booooooriiing"
@@ -47,8 +47,7 @@
             "text": "fine, be that way i guess",
             "displayname": "cindy",
             "speaker": "cindy",
-            "emotion": "sad",
-            "choices": []
+            "emotion": "sad"
         }
     ],
     "next_scene_default": "hell"

@@ -22,10 +22,10 @@ pygame.init()
 win_height: int = 640
 win_width: int = 360
 
-
+in_choice: bool = False
 
 window = Window(win_height, win_width)
-scene_controller: scene_handler.scene_handler = scene_handler.scene_handler("hell")
+scene_controller: scene_handler.scene_handler = scene_handler.scene_handler("Day1Scene1")
 clock = pygame.time.Clock()
 running = True
 handled: bool = False
@@ -34,11 +34,18 @@ handled: bool = False
 logger.push_log("Initiation finished, beginning game loop")
 
 while running:
-  for event in pygame.event.get():
+  if scene_controller.get_lines()[scene_controller.line_num]["type"] == "choice":
+    in_choice = True
+  else:
+    in_choice = False
+
+  events = pygame.event.get()
+
+  for event in events:
     if event.type == pygame.QUIT:
       logger.push_log("Closing sequence initiated, game will close at end of frame", False)
       running = False
-    if event.type == pygame.MOUSEBUTTONUP:
+    if event.type == pygame.MOUSEBUTTONUP and not in_choice:
       handled = False
 
 
@@ -66,6 +73,7 @@ while running:
   chars = []
   for line in scene_controller.current_lines:
     if line["type"] == "text":
+      # print(line)
       if line["speaker"] not in chars:
         # print(line["speaker"])
         chars.append(line["speaker"])
@@ -74,10 +82,10 @@ while running:
 
 
   # here we will update the screen for the current frame now that we have set everything in 
-  window.update()
+  window.update(scene_controller, events)
 
 
-  clock.tick(60) #sets game to 60 fps
+  clock.tick(240) #sets game to 60 fps
 
 
 
