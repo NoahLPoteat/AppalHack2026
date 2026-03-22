@@ -181,7 +181,7 @@ B)"Okay, but just know I'm skeptical...hmph!"(+1 relationship point)
 A)"Whatever...I spit in your coffee anyway!"/ "Your coffee order is weird anyway!" 
 B)"I won't disappoint... see you later tonight!-Gives Swanson address"
 
-[FIRST DATE SCENE]
+[FIRST DATE SCENE] -init dates are short just for time purposes. if time enough we can write more-
 
 [CINDY C]
 
@@ -221,6 +221,8 @@ We wait for a moment. No answer.
 
 -date happens. They are playing sorry/Uno/Monopoly. one of them.-
 
+[END DATE WITH JAVA JAMES]
+
 
 **END DAY 2**
 
@@ -228,22 +230,50 @@ We wait for a moment. No answer.
 
 -Repeat day start up sequence- 
 
+The date with [insert name] went [well/badly]
+
+Today is Wednesday. 
+
+Before class, Swanson grabs coffee before class, running into Java James. 
+
+[CHOICES]
+A)"Hi James! I had a lot of fun last night " -< make this sound better and be funny.
+
+B) -Neutral/bad- "Hi James." -orders coffee as normal, minimal/stiff interaction-. 
+
+--If A
+-Java asks if you want to hang out again? (+/- 1 relationship point)
+
+--If B 
+You must approach Java James if you wish to hang out. (possible +/- 1?? Mahybe make it harder to get?)
+
+-Class happens, we are sitting next to Cindy again. We approach Cindy C.
+
+[CHOICES]
+
+A) "I really enjoyed our tutoring sessions earlier. 
+B)"It makes no sense. What is a pointer?? Why is a pointer??"
+
+--If A 
+
+C says: "I'd love to teach you more about C and the intricacies of low level languages -blushes-"(+/-1 relationship point)
+
+--If B:
+C harumphs: "I don't know why you're complacent with mediocrity." You must approach her again(? To hang out with her, maybe make it harder to regain points)
 
 
+-class is finished-
 
+-cut back to home-
 
+-Swanson has a little extra time to game tonight. He sees that Both Cindy C and Java James are online on discord playing games.
 
+[CHOICE]
+A)Join Cindy C in league of legends
+B)Join Java James in Slay the Spire 2
+C) Neither. Have respect for yourself and go to sleep. 
 
+**END DAY 3**
 
-
-
-
-
-
-
-
-
-
-
-
+**START DAY 4- THURSDAY**
 
