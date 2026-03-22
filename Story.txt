@@ -1,5 +1,7 @@
 Opening Scene 
 
+**START DAY 1***
+
 Wake up as swanson, a cutesey scene. (could make a funny paint room or steal something from google)
 
 "Today is the first day of senior year. I need to be prepared."
@@ -103,7 +105,9 @@ Swanson is playing on his computer(which is a (microwave? potato?) It is hooked 
 
 -He wastes time here. Time skip. He goes to sleep.-
 
-- NEW DAY-
+**END DAY 1**
+
+**START DAY 2**
 
 -Same routine as last time-- tbh can just straight up reuse scenes up to the arrival at Anne Belk-
 
@@ -157,10 +161,27 @@ Swanson goes to Walmart. He is shopping when he collides with Java James.
 
 Java James swoons and starts to fall. Instinctively, Swanson reaches his arms out and catches him. Java catches his eyes, and blushes.
 
-"Thank you." \
+"Thank you." 
 
+They stare at each other, Java only excusing himself after a brief moment of eye contact.
 
+-Swanson stares apprehensively, remembering their last encounter(and the first between them)
 
+"I'm sorry about the other day," Java started. 
+
+"Please don't take anything my good friend who's not related in any way shape or form real name is John Java said personally. He's just...overprotective of me sometimes."
+"I feel terrible about it, let me make up for it- can I make you dinner to make up for it?"
+
+**CHOICES**
+[Swanson]
+A)"KYYYAAH! S-stay away from me hussy!" (-1 relationship point)
+B)"Okay, but just know I'm skeptical...hmph!"(+1 relationship point)
+
+[Java James]
+A)"Whatever...I spit in your coffee anyway!"
+B)"I won't disappoint... see you later tonight!"
+
+**END DAY 2**
 
 
 
