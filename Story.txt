@@ -170,18 +170,64 @@ They stare at each other, Java only excusing himself after a brief moment of eye
 "I'm sorry about the other day," Java started. 
 
 "Please don't take anything my good friend who's not related in any way shape or form real name is John Java said personally. He's just...overprotective of me sometimes."
-"I feel terrible about it, let me make up for it- can I make you dinner to make up for it?"
+"I feel terrible about it, let me make up for it- how about you join my friends and I for board game night?"
 
 **CHOICES**
 [Swanson]
-A)"KYYYAAH! S-stay away from me hussy!" (-1 relationship point)
+A)"KYYYAAH! S-stay away from me!" (-1 relationship point)
 B)"Okay, but just know I'm skeptical...hmph!"(+1 relationship point)
 
 [Java James]
-A)"Whatever...I spit in your coffee anyway!"
-B)"I won't disappoint... see you later tonight!"
+A)"Whatever...I spit in your coffee anyway!"/ "Your coffee order is weird anyway!" 
+B)"I won't disappoint... see you later tonight!-Gives Swanson address"
+
+[FIRST DATE SCENE]
+
+[CINDY C]
+
+It is later at night, and Swanson has arrived at the library for the tutoring session with Cindy. 
+
+-Transition to [A FLOOR/SPOT] in library. Cindy C is sitting at a table with a whiteboard thing on wheels pulled up-
+-She's dressed in a casual but cute tank top with jeans-
+
+-She spots Swanson-
+
+"..." With a small smirk, before she returns to her textbook. 
+We pull out a chair across from her and sit down, and Cindy C slides her notes over as she begins to explain pointers...
+
+[END DATE WITH CINDY]
+
+
+[JAVA JAMES]
+
+-Swanson arrives to Java James' apartment-
+
+*KNOCK KNOCK*
+
+We wait for a moment. No answer.
+
+*KNOCK KNOCK*
+
+-elevator chimes, and Java James steps out.-
+
+"Sorry," he apologized. "Collecting all my garbage and taking it out took a while."
+
+"It's no problem," Swanson accepted. 
+
+-Java James unlocks his door-, and they step in. They set up and shortly after, Java James' friends poured in.
+-[insert Madi, Viv, Noah, Dahliah]
+
+[INSERT SHORT DIALOGUES HERE. JUST CAMEO.]
+
+-date happens. They are playing sorry/Uno/Monopoly. one of them.-
+
 
 **END DAY 2**
+
+**START DAY 3**
+
+-Repeat day start up sequence- 
+
 
 
 
