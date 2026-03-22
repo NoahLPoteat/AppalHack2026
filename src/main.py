@@ -23,8 +23,10 @@ win_width: int = 360
 
 
 window = Window(win_height, win_width)
+scene_controller: scene_handler.scene_handler = scene_handler.scene_handler()
 clock = pygame.time.Clock()
 running = True
+handled: bool = False
 
 
 logger.push_log("Initiation finished, beginning game loop")
@@ -34,12 +36,31 @@ while running:
     if event.type == pygame.QUIT:
       logger.push_log("Closing sequence initiated, game will close at end of frame", False)
       running = False
+    if event.type == pygame.MOUSEBUTTONUP:
+      handled = False
 
+
+
+  if pygame.mouse.get_pressed()[0] and not handled:
+    scene_controller.advance_line()
+    handled = pygame.mouse.get_pressed()[0]
+    print(handled)
+    print("HERE")
+
+
+  
   # here we will reset the screen for the current frame
   window.reset_window()
+
+
+  # SCENE CONTROL
   # here we will see if the current scene has changed, or if anything within the scene has changed
   # if anything has changed we will update the window with the setters
   #basically the all the game logic goes right here
+  # print(scene_controller.line_num)
+  print(len(scene_controller.get_lines()))
+  window.set_dialogue(scene_controller.get_lines()[scene_controller.line_num]) #sets the current dialogue
+  window.set_bg(scene_controller.get_bg_file_name())
 
 
   # here we will update the screen for the current frame now that we have set everything in 

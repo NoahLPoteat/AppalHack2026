@@ -9,7 +9,7 @@ class Window:
   text_box: pygame.Surface = pygame.image.load("Assets/gen/text_box.png") 
   text_box_pos = (40,216) #based on text box being 560x144
   
-  dialogue_type: str
+  cur_dialogue: Scene.dialogue = None
   cur_scene_name: str = ""
   chars = [] 
 
@@ -85,8 +85,16 @@ class Window:
   # def set_characters(new_chars []):
   #     pass
  
-  def set_dialogue(new_dia: Scene.dialogue):
-      pass
+  def set_chars(self, new_chars):
+     chars = new_chars
+
+  def set_dialogue(self, new_dia: Scene.dialogue):
+    if self.cur_dialogue != None:
+      if self.cur_dialogue == new_dia:
+        return
+    
+    self.cur_dialogue = new_dia
+    logger.push_log("set dialoge " + str(self.cur_dialogue))
 
   # Sets the background file when the scene is changed 
   # NOTE: be sure to include the file extension in the parameter
