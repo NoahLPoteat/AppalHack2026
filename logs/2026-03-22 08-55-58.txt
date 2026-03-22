@@ -1,7 +1,0 @@
-2026-03-22 08-55-58| Log File made | 
-2026-03-22 08-55-59| Scene set to hell | 
-2026-03-22 08-55-59| Initiation finished, beginning game loop | 
-2026-03-22 08-55-59| set dialogue {'type': 'text', 'text': 'This is a test scene', 'displayname': 'Test', 'speaker': 'cindy', 'emotion': 'basic'} | 
-2026-03-22 08-56-01| set dialogue {'type': 'text', 'text': 'If you are here, something is fucked up', 'displayname': 'Test', 'speaker': 'placeholder', 'emotion': 'happy'} | 
-2026-03-22 08-56-02| set dialogue {'type': 'text', 'text': 'Or its 30 seconds from this being typed', 'displayname': 'Test', 'speaker': 'placeholder', 'emotion': 'sad'} | 
-2026-03-22 08-56-03| set dialogue {'type': 'choice', 'choices': [{'text': 'Stay', 'next_scene': 'test', 'transition': 'true'}, {'text': 'Stay but again', 'next_scene': 'none', 'transition': 'true'}]} | 

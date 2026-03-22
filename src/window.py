@@ -80,44 +80,44 @@ class Window:
       for char in self.chars:
         if self.cur_dialogue["type"] == "text":
           if char == self.cur_dialogue["speaker"]:
-              if n == 0: #char 1 is talking
-                char1_surface = pygame.image.load("assets/char_imgs/" +
-                                          self.chars[0] + self.cur_dialogue["emotion"] + ".png")
+            if n == 0: #char 1 is talking
+              char1_surface = pygame.image.load("assets/char_imgs/" +
+                                        self.chars[0] + self.cur_dialogue["emotion"] + ".png")
 
-                char2_surface = pygame.image.load("assets/char_imgs/" +
-                                          self.chars[1] + "basic" + ".png")
-                
+              char2_surface = pygame.image.load("assets/char_imgs/" +
+                                        self.chars[1] + "basic" + ".png")
+              
 
-                char2_surface.set_alpha(100)
+              char2_surface.set_alpha(100)
 
 
-                screen.blit(char1_surface, char1_pos)
-                screen.blit(char2_surface, char2_pos)
+              screen.blit(char1_surface, char1_pos)
+              screen.blit(char2_surface, char2_pos)
 
-              else:
-                char1_surface = pygame.image.load("assets/char_imgs/" +
-                                          self.chars[0] + "basic" + ".png")
+            else:
+              char1_surface = pygame.image.load("assets/char_imgs/" +
+                                        self.chars[0] + "basic" + ".png")
 
-                char2_surface = pygame.image.load("assets/char_imgs/" +
-                                          self.chars[1] + self.cur_dialogue["emotion"] + ".png")
-                
-                char1_surface.set_alpha(100)
+              char2_surface = pygame.image.load("assets/char_imgs/" +
+                                        self.chars[1] + self.cur_dialogue["emotion"] + ".png")
+              
+              char1_surface.set_alpha(100)
 
-                screen.blit(char1_surface, char1_pos)
-                screen.blit(char2_surface, char2_pos)
+              screen.blit(char1_surface, char1_pos)
+              screen.blit(char2_surface, char2_pos)
         else:
-            char1_surface = pygame.image.load("assets/char_imgs/" +
-                                          self.chars[0] + "basic" + ".png")
+          char1_surface = pygame.image.load("assets/char_imgs/" +
+                                        self.chars[0] + "basic" + ".png")
 
-            char2_surface = pygame.image.load("assets/char_imgs/" +
-                                          self.chars[1] + "basic" + ".png")
-                
-            char1_surface.set_alpha(100)
-            char2_surface.set_alpha(100)
+          char2_surface = pygame.image.load("assets/char_imgs/" +
+                                        self.chars[1] + "basic" + ".png")
+              
+          char1_surface.set_alpha(100)
+          char2_surface.set_alpha(100)
 
 
-            screen.blit(char1_surface, char1_pos)
-            screen.blit(char2_surface, char2_pos)
+          screen.blit(char1_surface, char1_pos)
+          screen.blit(char2_surface, char2_pos)
 
            
 
@@ -161,6 +161,10 @@ class Window:
           text_surface = self.font.render(line.strip(), True, (255, 255, 255))
           screen.blit(text_surface, (rect.x, rect.y + y_offset))
           y_offset += line_height
+      
+      # add the speaker
+      speaker_surface = pygame.font.SysFont("Serif", 18).render(self.cur_dialogue["speaker"], True, (255,255,255))
+      screen.blit(speaker_surface, (50,218))
     
 
     #if choice

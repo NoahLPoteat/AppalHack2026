@@ -1,9 +1,9 @@
 X Get characters on scene
 X Make it so speaking character is highlighted while other is not (if 2 on screen)
-Setup the name text box
+X Setup the name text box
 
 Phase 2
-Make choice dialogues put a slighty transparent gray box over the background
+X Make choice dialogues put a slighty transparent gray box over the background
 Set up main.py to have a start screen scene (we use a scene.json for ease this will trans to first scene)
 Set up a credits / final scene
 
