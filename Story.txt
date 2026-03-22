@@ -29,7 +29,7 @@ CINDY C INTRO
 
 -class happens. Everyone leaves, and Cindy C and Swanson briefly make eye contact.-
 // At this point in time, can Cindy's 
-name be displayed as ???-
+name be displayed as ???///
 
 "I have an hour before my next class... I'll wait in the lobby."
 
@@ -87,7 +87,7 @@ Java James gets cut off by a sudden objection.
 
 Java James' face falls flat, though he doesn't seem surprised- moreso annoyed. 
 
-"I'm sorry, I don't know that guy. He just goes around telling people that we're a couple. I have zero clue why."
+"I'm sorry, I don't know that guy. He just goes around telling people that we're best friends. I have zero clue why- I've never met that guy in my life. I only ever see him in here hunched over his laptop."
 
 "haha...credit please." (<- clear discomfort on face. )
 
@@ -101,7 +101,7 @@ Time to go home for the day.
 
 *Back home* 
 
-Swanson is playing on his computer(which is a (microwave? potato?) It is hooked up to his monitor and running DOOM).
+Swanson is playing on his computer(which is a (microwave? potato? regular computer?) It is hooked up to his monitor and running DOOM).
 
 -He wastes time here. Time skip. He goes to sleep.-
 
@@ -124,7 +124,7 @@ Swanson is playing on his computer(which is a (microwave? potato?) It is hooked 
 -Swanson is startled-
 
 "Excuse me??"
-
+b. I hav
 Cindy C rolls her eyes, clearly annoyed. 
 
 -COULD DO THIS SCENE BETTER MAYBE WE SEE-
@@ -140,7 +140,7 @@ Swanson is fully ready to engage in this conversation. It's not super hostile, b
 "Sorry. I just meant that I think you're capable of using a more efficient language...if you'd like, I could take some time 
 to tutor you in a better one."
 
-**CHOICES**
+[CHOICES]
 [SWANSON]
 A) "Sure, I'd love to sometime. I'm free this weekend?" (+1 relationship point)
 
@@ -269,11 +269,36 @@ C harumphs: "I don't know why you're complacent with mediocrity." You must appro
 -Swanson has a little extra time to game tonight. He sees that Both Cindy C and Java James are online on discord playing games.
 
 [CHOICE]
-A)Join Cindy C in league of legends
-B)Join Java James in Slay the Spire 2
+A)Join Cindy C in league of legends(+/-1 relationship point)
+B)Join Java James in Slay the Spire 2(+/-1 relationship point)
 C) Neither. Have respect for yourself and go to sleep. 
 
-**END DAY 3**
+**END DAY 3** 
 
 **START DAY 4- THURSDAY**
+
+//should have a gift buying scene before this?
+
+Same thing, yada yada. Opening sequence. 
+
+-As the week has progressed, you've almost completely forgotten your original goal of finding a partner for your captstone project, and the deadline is almost up.-
+
+-So far, you've explored the possibilities of working with both Java James and Cindy C. Both had their ups and downs, but so far 
+it seemed that [<insert name of HIGHEST RELATIONSHIP SCORE IF UNEVEN?>] understood you a little better, and lately it seems that things have been awkward with [LOWER SCORE NAME]
+
+[CHOICE]
+Who should Swanson approach?
+Separate by character
+A) Approach Cindy C and ask her to be your partner for the Capstone
+
+B) Approach Java James and ask him to be your partner for the Capstone
+
+--approach the respective person (A OR B)--
+
+--present recipient with gift--
+
+--if relationship points < 2 (will probably have to refactor this i was kinda inconsistent with point assign)--
+
+**FAIL. THEY SAY THEY HAVE ALREADY FOUND A PARTNER** 
+
 
