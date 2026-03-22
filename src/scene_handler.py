@@ -35,7 +35,7 @@ class scene_handler:
   #todo, if we reach end of lines, and there hasnt been a scene change we need to change scene to the default
   # IF no default, we need to change to hell.json
   def advance_line(self):
-    print(self.current_lines[self.line_num])
+    #print(self.current_lines[self.line_num])
     if self.current_lines[self.line_num] == "choice":
       self.choice_buttons = self.current_lines[self.line_num]
 

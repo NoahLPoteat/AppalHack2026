@@ -8,8 +8,8 @@ import scene_handler
 
 class choice_button:
 
-  norm_img = pygame.image.load("Assets/gen/choiceBox.png")
-  hvr_img = pygame.image.load("Assets/gen/choiceBoxHov.png")
+  norm_img = pygame.image.load("assets/gen/choiceBox.png")
+  hvr_img = pygame.image.load("assets/gen/choiceBoxHov.png")
 
   width = 480
   height = 84

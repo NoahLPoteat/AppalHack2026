@@ -8,7 +8,7 @@ class Window:
   bg_img: pygame.Surface = None
 
   #= load(textbox.png) or something like that
-  text_box: pygame.Surface = pygame.image.load("Assets/gen/text_box.png") 
+  text_box: pygame.Surface = pygame.image.load("assets/gen/text_box.png") 
   text_box_pos = (40,216) #based on text box being 560x144
   
   cur_dialogue: Scene.dialogue = None
@@ -78,32 +78,48 @@ class Window:
       
       n = 0
       for char in self.chars:
-        if char == self.cur_dialogue["speaker"]:
-            if n == 0: #char 1 is talking
-              char1_surface = pygame.image.load("assets/char_imgs/" +
-                                        self.chars[0] + self.cur_dialogue["emotion"] + ".png")
+        if self.cur_dialogue["type"] == "text":
+          if char == self.cur_dialogue["speaker"]:
+              if n == 0: #char 1 is talking
+                char1_surface = pygame.image.load("assets/char_imgs/" +
+                                          self.chars[0] + self.cur_dialogue["emotion"] + ".png")
 
-              char2_surface = pygame.image.load("assets/char_imgs/" +
-                                        self.chars[1] + "basic" + ".png")
-              
+                char2_surface = pygame.image.load("assets/char_imgs/" +
+                                          self.chars[1] + "basic" + ".png")
+                
 
-              char2_surface.set_alpha(100)
+                char2_surface.set_alpha(100)
 
 
-              screen.blit(char1_surface, char1_pos)
-              screen.blit(char2_surface, char2_pos)
+                screen.blit(char1_surface, char1_pos)
+                screen.blit(char2_surface, char2_pos)
 
-            else:
-              char1_surface = pygame.image.load("assets/char_imgs/" +
-                                        self.chars[0] + "basic" + ".png")
+              else:
+                char1_surface = pygame.image.load("assets/char_imgs/" +
+                                          self.chars[0] + "basic" + ".png")
 
-              char2_surface = pygame.image.load("assets/char_imgs/" +
-                                        self.chars[1] + self.cur_dialogue["emotion"] + ".png")
-              
-              char1_surface.set_alpha(100)
+                char2_surface = pygame.image.load("assets/char_imgs/" +
+                                          self.chars[1] + self.cur_dialogue["emotion"] + ".png")
+                
+                char1_surface.set_alpha(100)
 
-              screen.blit(char1_surface, char1_pos)
-              screen.blit(char2_surface, char2_pos)
+                screen.blit(char1_surface, char1_pos)
+                screen.blit(char2_surface, char2_pos)
+        else:
+            char1_surface = pygame.image.load("assets/char_imgs/" +
+                                          self.chars[0] + "basic" + ".png")
+
+            char2_surface = pygame.image.load("assets/char_imgs/" +
+                                          self.chars[1] + "basic" + ".png")
+                
+            char1_surface.set_alpha(100)
+            char2_surface.set_alpha(100)
+
+
+            screen.blit(char1_surface, char1_pos)
+            screen.blit(char2_surface, char2_pos)
+
+           
 
         n += 1
 
@@ -198,7 +214,7 @@ class Window:
   # Sets the background file when the scene is changed 
   # NOTE: be sure to include the file extension in the parameter
   def set_bg(self, file_name: str):
-      self.bg_img = pygame.image.load("Assets/bg_imgs/" + file_name)
+      self.bg_img = pygame.image.load("assets/bg_imgs/" + file_name)
       if self.bg_img == None:
           logger.push_log("bg_img " + file_name + " does not exist, check file name", True)
     
