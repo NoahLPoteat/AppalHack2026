@@ -50,5 +50,6 @@
             "emotion": "sad",
             "choices": []
         }
-    ]
+    ],
+    "next_scene_default": "home"
 }

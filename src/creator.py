@@ -11,7 +11,7 @@ def write(sc):
 
 name = input("enter the name of the scene\n")
 Sc = scene(name)
-Sc.bg = "./assets/bg_imgs/" + input("bg filename (not path)\n")
+Sc.bg = input("bg filename (not path)\n")
 
 
 flag = True

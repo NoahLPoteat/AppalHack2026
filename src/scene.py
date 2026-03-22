@@ -11,7 +11,8 @@ class scene:
         return {
             "name": self.name,
             "bg": self.bg,
-            "lines": self.lines
+            "lines": self.lines,
+            "next_scene_default": self.next_scene_default
         }
 
 class dialogue:
