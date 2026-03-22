@@ -38,9 +38,15 @@
             "choices": [
                 {
                     "text": "...No??? What's your problem?",
-                    "next_scene": "none ",
+                    "next_scene": "none",
                     "transition": false,
-                    "affections": "noen ",
+                    "affections": "none",
+                    "response": "none"
+                }, {
+                    "text": "Sure, I'd love to! I'm free tonight. ",
+                    "next_scene": "Day2Scene2b",
+                    "transition": false,
+                    "affections": "none",
                     "response": "none"
                 }
             ],
