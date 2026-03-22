@@ -1,0 +1,3 @@
+in window.py, setup the text box
+window.py, setup the choice buttons
+

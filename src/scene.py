@@ -46,5 +46,6 @@ def loadJSON(pathname):
     sc = scene(d["name"])
     sc.bg = d["bg"]
     sc.lines = d["lines"]
+    sc.next_scene_default = d["next_scene_default"]
     return sc
     

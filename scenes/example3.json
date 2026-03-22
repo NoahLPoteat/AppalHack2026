@@ -1,6 +1,6 @@
 {
     "name": "example3",
-    "bg": "./assets/bg_imgs/hell.png",
+    "bg": "placeholder.png",
     "lines": [
         {
             "type": "text",
@@ -51,5 +51,5 @@
             "choices": []
         }
     ],
-    "next_scene_default": "home"
+    "next_scene_default": "hell"
 }
