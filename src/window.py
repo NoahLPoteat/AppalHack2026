@@ -106,16 +106,7 @@ class Window:
               screen.blit(char2_surface, char2_pos)
 
         n += 1
-      
-      #get whos talking from text
-      # if none then blur out both (this usually mean inner dialogue)
-      
-      # for character who isnt talking -> lower saturation and maybe opacity
 
-      #screen.blit(char1_surface, char1_pos)
-      #screen.blit(char2_surface, char2_pos)
-
-    #if there are no characters in the scene than we dont need to render anything at this stage.
 
     #next we need to render the text box
     if self.text_box == None:

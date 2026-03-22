@@ -7,10 +7,8 @@ Make choice dialogues put a slighty transparent gray box over the background
 Set up main.py to have a start screen scene (we use a scene.json for ease this will trans to first scene)
 Set up a credits / final scene
 
-
-FINAL TOUCHES
-Set the initial scene at top of main to be the start scene 
-  maybe have a if start flag and make it slide up to starting scene
+have some sort of flag maybe so when we reach the final scene we can check
+  what our standing with them is
 
 
 CHARS ARE 304 x 344
