@@ -3,32 +3,32 @@ import json
 class scene:
     name = ""
     bg = ""
-    characters = []
     lines = []
+    next_scene_default = ""
     def __init__(self, name):
         self.name=name
     def toDict(self):
         return {
             "name": self.name,
             "bg": self.bg,
-            "chars": self.characters,
             "lines": self.lines
         }
-    def play(self):
-        pass
 
 class dialogue:
-    type = "" #text, choice, sprite
-    text = ""
-    speaker = "" #name on text box, and highlighting sprites
-    choices = []
+    type = "" #text, choice
+    text = "" #leave blank for choice
+    displayname = ""
+    speaker = "" #sprites
+    emotion = "" #basic/empty, happy, sad, angry
+    choices = [] # leave blank for type==text
 
 
 class choice:
     text = ""
-    next_scene = ""
-    transition = False
-    affections = "c+1, j-1"
+    next_scene = "" #json
+    transition = False #whether to actually change the scene or just quiet change
+    affections = "" #ex c+1, j-1
+    response = "none" # say "none" if blank
     
 
 def loadJSON(pathname):
@@ -38,7 +38,6 @@ def loadJSON(pathname):
     print(d)
     sc = scene(d["name"])
     sc.bg = d["bg"]
-    sc.characters = d["chars"]
     sc.lines = d["lines"]
     return sc
     

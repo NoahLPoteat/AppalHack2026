@@ -1,5 +1,5 @@
 import json
-from src.scene import scene, dialogue
+from scene import scene, dialogue, choice
 
 def write(sc):
     n = "./scenes/"+sc.name+".json"
@@ -11,20 +11,48 @@ def write(sc):
 
 name = input("enter the name of the scene\n")
 Sc = scene(name)
-print("bg todo")
-print("chars todo")
+Sc.bg = "./assets/bg_imgs/" + input("bg filename (not path)\n")
+
 
 flag = True
 
 
 while flag:
-    text = input("choose sprite, choice or exit. anything else is a dialogue line\n")
+    text = input("line of dialogue or 'exit' or 'choice'\n")
     line = dialogue()
     match(text):
-        case "sprite": line.type = "sprite"
-        case "choice": line.type = "choice"
         case "exit": flag = False; continue
-        case _: line.type = "text"; line.text = text
+
+        #currently broken
+        case "choice":
+            line.type = "choice"
+
+            flag2 = True
+            while flag2:
+                decide = input("'new' choice or 'exit'\n")
+                if decide == "exit":
+                    flag2=False
+                    continue
+                choosy = choice()
+                choosy.text = input("text display for choice\n")
+                choosy.next_scene = input("next scene name or 'none'\n")
+                trans = input("play transition? t/f\n")
+                choosy.transition = True if trans == "t" else False
+                choosy.affections = input("changes to affection (eg c+1 or 'none')\n")
+                choosy.response = input("single line response or 'none'\n")
+                line.choices.append(choosy.__dict__)
+            
+            
+
+        case _:
+            line.type = "text"
+            line.text = text
+            line.displayname = input("displayname\n")
+            line.speaker = input("speaker ('java' 'pierce' 'cindy' 'none')\n")
+            line.emotion = input("speaker emotion ('basic' 'happy' 'sad' 'angry')\n")
+
     Sc.lines.append(line.__dict__)
-        
+
+Sc.next_scene_default = input("next scene if no choice is made\n")
+
 write(Sc)

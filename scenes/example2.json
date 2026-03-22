@@ -1,0 +1,30 @@
+{
+    "name": "example2",
+    "bg": "./assets/bg_imgs/test.png",
+    "lines": [
+        {
+            "type": "text",
+            "text": "hello",
+            "displayname": "???",
+            "speaker": "cindy",
+            "emotion": "basic"
+        },
+        {
+            "type": "text",
+            "text": "my name is cindy",
+            "displayname": "cindy",
+            "speaker": "cindy",
+            "emotion": "happy"
+        },
+        {
+            "type": "text",
+            "text": "kill yourself",
+            "displayname": "cindy",
+            "speaker": "cindy",
+            "emotion": "angry"
+        },
+        {
+            "type": "choice"
+        }
+    ]
+}
