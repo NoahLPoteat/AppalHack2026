@@ -1,0 +1,39 @@
+{
+    "name": "created_example",
+    "bg": "test.png",
+    "chars": [],
+    "lines": [
+        {
+            "type": "text",
+            "text": "This is a test scene"
+        },
+        {
+            "type": "text",
+            "text": "If you are here, something is fucked up"
+        },
+        {
+            "type": "text",
+            "text": "Or its 30 seconds from this being typed"
+        },
+        {
+            "type": "choice",
+            "choices" : [
+              { 
+                "text": "Choice 1, this will go to test 2 (doesnt exist yet dont click)",
+                "next_scene": "test",
+                "transition": "true"
+              },
+              {
+                "text": "Choice 2, this will stay in this scene, potentially showing more text after",
+                "next_scene": "none",
+                "transition": "true"
+              }
+            ]
+        },
+        {
+          "type": "text",
+          "text": "See, more text!"
+          
+        }
+    ]
+}
