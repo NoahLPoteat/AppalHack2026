@@ -45,7 +45,7 @@
                 },
                 {
                     "text": "Sure, I'd love to! I'm free tonight. ",
-                    "next_scene": "Day2Scene2b",
+                    "next_scene": "Day2CindayDate",
                     "transition": false,
                     "affections": "none",
                     "response": "none"
