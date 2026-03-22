@@ -1,0 +1,6 @@
+{
+    "name": "Day1Scene1",
+    "bg": "test",
+    "lines": [],
+    "next_scene_default": "Day1Scene2"
+}

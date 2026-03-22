@@ -1,0 +1,39 @@
+{
+    "name": "Day1Scene3",
+    "bg": "test.png",
+    "lines": [
+        {
+            "choices": [],
+            "type": "text",
+            "text": "...and if you use AI...well, just know that Grok can't make those customers' drinks for you.",
+            "displayname": "Prof. Brad Rivers",
+            "speaker": "none",
+            "emotion": "basic"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "Hello class, my name is professor Brad Rivers and this semester I'I'll be teaching your CAPSTONE class.",
+            "displayname": "Prof Brad Rivers",
+            "speaker": "none",
+            "emotion": "basic"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "which as you know, is an oppurtunity to combine your heads with a peer and output a unique showcase of your knowledge.\u001b",
+            "displayname": "Prof Brad Rivers",
+            "speaker": "none",
+            "emotion": "basic"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "But for today, we're just going to go over the syllabus.",
+            "displayname": "Prof Brad Rivers",
+            "speaker": "none",
+            "emotion": "happy"
+        }
+    ],
+    "next_scene_default": "Day1Scene4"
+}

@@ -1,0 +1,113 @@
+{
+    "name": "Day1Scene4",
+    "bg": "placeholder.png",
+    "lines": [
+        {
+            "choices": [],
+            "type": "text",
+            "text": "*Enters Wired*",
+            "displayname": "Self",
+            "speaker": "none",
+            "emotion": "basic"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "Uhm...may I please have an iced Dubai chocolate latte with oat m? UWU.",
+            "displayname": "Self",
+            "speaker": "none",
+            "emotion": "basic"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "App card or credit?",
+            "displayname": "???",
+            "speaker": "java",
+            "emotion": "basic"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "... :O ;P",
+            "displayname": "Self",
+            "speaker": "none",
+            "emotion": "basic"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "App card or credit?",
+            "displayname": "???",
+            "speaker": "java",
+            "emotion": "basic"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "...",
+            "displayname": "Sel",
+            "speaker": "none",
+            "emotion": "basic"
+        },
+          {
+            "choices": [],
+            "type": "text",
+            "text": "App or-",
+            "displayname": "???",
+            "speaker": "java",
+            "emotion": "basic"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "Close your mouth before you catch a bug, loser ",
+            "displayname": "???",
+            "speaker": "pierce",
+            "emotion": "basic"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "He's not interested in you",
+            "displayname": "John Java",
+            "speaker": "pierce",
+            "emotion": "angry"
+        },
+          {
+            "choices": [],
+            "type": "text",
+            "text": "I...sorry about him. He really like me for some reason. Nobody knows why.",
+            "displayname": "John Java",
+            "speaker": "java",
+            "emotion": "basic"
+        },
+        {
+            "choices": [],
+            "type": "...ahaha... I'll do credit. *blushes*",
+            "text": "...",
+            "displayname": "???",
+            "speaker": "java",
+            "emotion": "basic"
+        },        
+          {
+            "choices": [],
+            "type": "text",
+            "text": "...",
+            "displayname": "Self",
+            "speaker": "none",
+            "emotion": "basic"
+        },
+          {
+            "choices": [],
+            "type": "text",
+            "text": "DUBAI CHOCOLATE LATTE WITH OAT MILK!",
+            "displayname": "Java James",
+            "speaker": "java",
+            "emotion": "basic"
+        }
+
+
+    ],
+    "next_scene_default": "Day2Scene1"
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Day1Scene2",
+    "bg": "placeholder.png",
+    "lines": [
+        {
+            "choices": [],
+            "type": "text",
+            "text": "Well, this is the computer science building. ",
+            "displayname": "Self",
+            "speaker": "none",
+            "emotion": "basic"
+        }
+    ],
+    "next_scene_default": "Day1Scene3"
+}
