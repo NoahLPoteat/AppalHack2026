@@ -24,7 +24,7 @@
             "text": "...This is for my statistics homework...",
             "displayname": "Self",
             "speaker": "none",
-            "emotion": "sad"
+            "emotion": "basic"
         },
         {
             "choices": [],
@@ -42,7 +42,8 @@
                     "transition": false,
                     "affections": "none",
                     "response": "none"
-                }, {
+                },
+                {
                     "text": "Sure, I'd love to! I'm free tonight. ",
                     "next_scene": "Day2Scene2b",
                     "transition": false,
@@ -53,16 +54,12 @@
             "type": "choice"
         },
         {
-            "choices": [
-                {
-                    "text": "O-Okay, but when your program takes until next week to run, don't come crying to me!!",
-                    "next_scene": "none",
-                    "transition": false,
-                    "affections": "none",
-                    "response": "none"
-                }
-            ],
-            "type": "choice"
+            "choices": [],
+            "type": "text",
+            "text": "O-Okay, but when your program takes until next week to run, don't come crying to me!!",
+            "displayname": "Cindy C",
+            "speaker": "cindy",
+            "emotion": "basic"
         }
     ],
     "next_scene_default": "Day2Scene3"
