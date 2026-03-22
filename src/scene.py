@@ -21,6 +21,12 @@ class dialogue:
     speaker = "" #sprites
     emotion = "" #basic/empty, happy, sad, angry
     choices = [] # leave blank for type==text
+    #a dict containing a list of dicts is jank, apparantly
+    def dict2(self):
+        d = self.__dict__
+        if self.choices:
+            d["choices"] = [i.__dict__ for i in self.choices]
+        return d
 
 
 class choice:

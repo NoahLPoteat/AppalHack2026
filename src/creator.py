@@ -20,6 +20,7 @@ flag = True
 while flag:
     text = input("line of dialogue or 'exit' or 'choice'\n")
     line = dialogue()
+    line.choices = []
     match(text):
         case "exit": flag = False; continue
 
@@ -40,7 +41,7 @@ while flag:
                 choosy.transition = True if trans == "t" else False
                 choosy.affections = input("changes to affection (eg c+1 or 'none')\n")
                 choosy.response = input("single line response or 'none'\n")
-                line.choices.append(choosy.__dict__)
+                line.choices.append(choosy)
             
             
 
@@ -51,7 +52,7 @@ while flag:
             line.speaker = input("speaker ('java' 'pierce' 'cindy' 'none')\n")
             line.emotion = input("speaker emotion ('basic' 'happy' 'sad' 'angry')\n")
 
-    Sc.lines.append(line.__dict__)
+    Sc.lines.append(line.dict2())
 
 Sc.next_scene_default = input("next scene if no choice is made\n")
 
