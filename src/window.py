@@ -38,7 +38,6 @@ class Window:
         screen = pygame.display.set_mode((win_width, win_height))
         self.font = pygame.font.SysFont("Serif", 30)
 
-  def update(self):
   def update(self, scene_handler, event = None):
     
     #here we will layer the sprites to the screen using blit
@@ -83,7 +82,6 @@ class Window:
       for char in self.chars:
         if self.cur_dialogue["type"] == "text":
           if char == self.cur_dialogue["speaker"]:
-            if n == 0: #char 1 is talking
               if n == 0: #char 1 is talking
                 char1_surface = pygame.image.load("assets/char_imgs/" +
                                           self.chars[0] + self.cur_dialogue["emotion"] + ".png")
