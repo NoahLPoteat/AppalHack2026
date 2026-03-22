@@ -1,0 +1,31 @@
+{
+    "name": "Day2CindayDate",
+    "bg": "placeholder.png",
+    "lines": [
+        {
+            "choices": [],
+            "type": "text",
+            "text": "*Shows up to Belk Library*",
+            "displayname": "Self",
+            "speaker": "none",
+            "emotion": "basic"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "So you decided to show up and learn a REAL comp sci maxxer's language?",
+            "displayname": "Cindy C",
+            "speaker": "cindy",
+            "emotion": "happy"
+        },
+        {
+            "choices": [],
+            "type": "text",
+            "text": "What can I say, you *pointed* me in the right direction. ",
+            "displayname": "Self",
+            "speaker": "none",
+            "emotion": "happy"
+        }
+    ],
+    "next_scene_default": "Day2JavaDate"
+}
