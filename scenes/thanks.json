@@ -1,0 +1,15 @@
+{
+    "name": "credits",
+    "bg": "gazebo_inside.png",
+    "lines": [
+        {
+            "choices": [],
+            "type": "text",
+            "text": "thank you for playing!!!!",
+            "displayname": "thank you",
+            "speaker": "none",
+            "emotion": "basic"
+        }
+    ],
+    "next_scene_default": "thanks"
+}
