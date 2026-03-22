@@ -1,5 +1,5 @@
-Get characters on scene
-Make it so speaking character is highlighted while other is not (if 2 on screen)
+X Get characters on scene
+X Make it so speaking character is highlighted while other is not (if 2 on screen)
 Setup the name text box
 
 Phase 2

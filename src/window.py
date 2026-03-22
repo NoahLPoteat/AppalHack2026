@@ -64,17 +64,49 @@ class Window:
       # print(self.chars[0])
       if self.cur_dialogue["type"] == "text":
           
-        char_surface = pygame.image.load("assets/char_imgs/" + self.chars[0] + self.cur_dialogue["emotion"] + ".png")
+        char_surface = pygame.image.load("assets/char_imgs/" + self.chars[0] + 
+                                         self.cur_dialogue["emotion"] + ".png")
         screen.blit(char_surface, char_pos)
 
     elif len(self.chars) == 2:
-      char1_pos = (0,0) #calculate this at some point loser
-      char2_pos = (0,0) #calculate this at some point loser
+      char1_pos = (12,16) #calculate this at some point loser
+      char2_pos = (326,16) #calculate this at some point loser
 
-      #if dialoge["type"] == "text":
-      #char1_surface = load_char_image(self.chars[0].get_sprite(dialogue["char_name"] + dialogue["emotion"].png))
-      #char2_surface = load_char_image(self.chars[1].get_sprite(get_emotion()))
+      char1_surface: pygame.surface
 
+      char2_surface: pygame.surface
+      
+      n = 0
+      for char in self.chars:
+        if char == self.cur_dialogue["speaker"]:
+            if n == 0: #char 1 is talking
+              char1_surface = pygame.image.load("assets/char_imgs/" +
+                                        self.chars[0] + self.cur_dialogue["emotion"] + ".png")
+
+              char2_surface = pygame.image.load("assets/char_imgs/" +
+                                        self.chars[1] + "basic" + ".png")
+              
+
+              char2_surface.set_alpha(100)
+
+
+              screen.blit(char1_surface, char1_pos)
+              screen.blit(char2_surface, char2_pos)
+
+            else:
+              char1_surface = pygame.image.load("assets/char_imgs/" +
+                                        self.chars[0] + "basic" + ".png")
+
+              char2_surface = pygame.image.load("assets/char_imgs/" +
+                                        self.chars[1] + self.cur_dialogue["emotion"] + ".png")
+              
+              char1_surface.set_alpha(100)
+
+              screen.blit(char1_surface, char1_pos)
+              screen.blit(char2_surface, char2_pos)
+
+        n += 1
+      
       #get whos talking from text
       # if none then blur out both (this usually mean inner dialogue)
       
