@@ -1,0 +1,29 @@
+2026-03-23 11-15-31| Log File made | 
+2026-03-23 11-15-31| Scene set to Day1Scene1 | 
+2026-03-23 11-15-31| Initiation finished, beginning game loop | 
+2026-03-23 11-15-31| set dialogue {'choices': [], 'type': 'text', 'text': 'Today is the first day of senior year. Time to get ready~!', 'displayname': 'Self', 'speaker': 'none', 'emotion': 'basic'} | 
+2026-03-23 11-15-32| Scene set to Day1Scene2 | 
+2026-03-23 11-15-32| set dialogue {'choices': [], 'type': 'text', 'text': 'Well, this is the computer science building. ', 'displayname': 'Self', 'speaker': 'none', 'emotion': 'basic'} | 
+2026-03-23 11-15-33| Scene set to Day1Scene3 | 
+2026-03-23 11-15-33| set dialogue {'choices': [], 'type': 'text', 'text': '...and if you use AI...well, AI can make a data-structure, but can it structure your life?', 'displayname': 'Prof. Brad Rivers', 'speaker': 'none', 'emotion': 'basic'} | 
+2026-03-23 11-15-33| set dialogue {'choices': [], 'type': 'text', 'text': "Hello class, my name is professor Brad Rivers and this semester I'll be teaching your CAPSTONE class.", 'displayname': 'Prof Brad Rivers', 'speaker': 'none', 'emotion': 'basic'} | 
+2026-03-23 11-15-33| set dialogue {'choices': [], 'type': 'text', 'text': 'which as you know, is an oppurtunity to combine your heads with a peer and output a unique showcase of your knowledge.', 'displayname': 'Prof Brad Rivers', 'speaker': 'none', 'emotion': 'basic'} | 
+2026-03-23 11-15-34| set dialogue {'choices': [], 'type': 'text', 'text': 'So think about that while we go over the syllabus for 5 minutes, and how to kill Grok for 45 minutes.', 'displayname': 'Prof Brad Rivers', 'speaker': 'none', 'emotion': 'happy'} | 
+2026-03-23 11-15-34| Scene set to Day1Scene4 | 
+2026-03-23 11-15-34| set dialogue {'choices': [], 'type': 'text', 'text': '*Enters Wired*', 'displayname': 'Self', 'speaker': 'none', 'emotion': 'basic'} | 
+2026-03-23 11-15-35| set dialogue {'choices': [], 'type': 'text', 'text': 'Uhm...may I please have an iced Dubai chocolate latte with oat m? UWU.', 'displayname': 'Self', 'speaker': 'none', 'emotion': 'basic'} | 
+2026-03-23 11-15-38| set dialogue {'choices': [], 'type': 'text', 'text': 'App card or credit?', 'displayname': '???', 'speaker': 'java', 'emotion': 'basic'} | 
+2026-03-23 11-15-38| set dialogue {'choices': [], 'type': 'text', 'text': '... :O ;P', 'displayname': 'Self', 'speaker': 'none', 'emotion': 'basic'} | 
+2026-03-23 11-15-39| set dialogue {'choices': [], 'type': 'text', 'text': 'App card or credit?', 'displayname': '???', 'speaker': 'java', 'emotion': 'basic'} | 
+2026-03-23 11-15-39| set dialogue {'choices': [], 'type': 'text', 'text': '...', 'displayname': 'Sel', 'speaker': 'none', 'emotion': 'basic'} | 
+2026-03-23 11-15-39| set dialogue {'choices': [], 'type': 'text', 'text': 'App or-', 'displayname': '???', 'speaker': 'java', 'emotion': 'basic'} | 
+2026-03-23 11-15-39| set dialogue {'choices': [], 'type': 'text', 'text': 'Close your mouth before you catch a bug, loser ', 'displayname': '???', 'speaker': 'pierce', 'emotion': 'basic'} | 
+2026-03-23 11-15-39| set dialogue {'choices': [], 'type': 'text', 'text': "He's not interested in you", 'displayname': 'John Java', 'speaker': 'pierce', 'emotion': 'angry'} | 
+2026-03-23 11-15-39| set dialogue {'choices': [], 'type': 'text', 'text': 'I...sorry about him. He just really likes me for some reason. Nobody knows why.', 'displayname': 'John Java', 'speaker': 'java', 'emotion': 'basic'} | 
+2026-03-23 11-15-40| set dialogue {'choices': [], 'type': "...ahaha... I'll do credit. *blushes*", 'text': '...', 'displayname': '???', 'speaker': 'java', 'emotion': 'basic'} | 
+2026-03-23 11-15-40| set dialogue {'choices': [], 'type': 'text', 'text': '...', 'displayname': 'Self', 'speaker': 'none', 'emotion': 'basic'} | 
+2026-03-23 11-15-40| set dialogue {'choices': [], 'type': 'text', 'text': 'DUBAI CHOCOLATE LATTE WITH OAT MILK!', 'displayname': 'Java James', 'speaker': 'java', 'emotion': 'basic'} | 
+2026-03-23 11-15-40| Scene set to Day2Scene1 | 
+2026-03-23 11-15-40| set dialogue {'choices': [], 'type': 'text', 'text': "Day two of school...! I can't wait to start taking Programming Languages..! ", 'displayname': 'Self', 'speaker': 'none', 'emotion': 'happy'} | 
+2026-03-23 11-15-42| Closing sequence initiated, game will close at end of frame | 
+2026-03-23 11-15-42| Final frame finished. Closing Game... | 

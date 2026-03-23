@@ -1,0 +1,13 @@
+2026-03-23 11-14-51| Log File made | 
+2026-03-23 11-14-51| Scene set to Day1Scene1 | 
+2026-03-23 11-14-51| Initiation finished, beginning game loop | 
+2026-03-23 11-14-51| set dialogue {'choices': [], 'type': 'text', 'text': 'Today is the first day of senior year. Time to get ready~!', 'displayname': 'Self', 'speaker': 'none', 'emotion': 'basic'} | 
+2026-03-23 11-14-51| Scene set to Day1Scene2 | 
+2026-03-23 11-14-51| set dialogue {'choices': [], 'type': 'text', 'text': 'Well, this is the computer science building. ', 'displayname': 'Self', 'speaker': 'none', 'emotion': 'basic'} | 
+2026-03-23 11-14-52| Scene set to Day1Scene3 | 
+2026-03-23 11-14-52| set dialogue {'choices': [], 'type': 'text', 'text': '...and if you use AI...well, AI can make a data-structure, but can it structure your life?', 'displayname': 'Prof. Brad Rivers', 'speaker': 'none', 'emotion': 'basic'} | 
+2026-03-23 11-14-55| set dialogue {'choices': [], 'type': 'text', 'text': "Hello class, my name is professor Brad Rivers and this semester I'll be teaching your CAPSTONE class.", 'displayname': 'Prof Brad Rivers', 'speaker': 'none', 'emotion': 'basic'} | 
+2026-03-23 11-14-56| set dialogue {'choices': [], 'type': 'text', 'text': 'which as you know, is an oppurtunity to combine your heads with a peer and output a unique showcase of your knowledge.', 'displayname': 'Prof Brad Rivers', 'speaker': 'none', 'emotion': 'basic'} | 
+2026-03-23 11-14-56| set dialogue {'choices': [], 'type': 'text', 'text': 'So think about that while we go over the syllabus for 5 minutes, and how to kill Grok for 45 minutes.', 'displayname': 'Prof Brad Rivers', 'speaker': 'none', 'emotion': 'happy'} | 
+2026-03-23 11-14-57| Scene set to Day1Scene4 | 
+2026-03-23 11-14-57| set dialogue {'choices': [], 'type': 'text', 'text': '*Enters Wired*', 'displayname': 'Self', 'speaker': 'none', 'emotion': 'basic'} | 

@@ -1,0 +1,8 @@
+2026-03-23 11-14-19| Log File made | 
+2026-03-23 11-14-19| Scene set to Day1Scene1 | 
+2026-03-23 11-14-19| Initiation finished, beginning game loop | 
+2026-03-23 11-14-19| set dialogue {'choices': [], 'type': 'text', 'text': 'Today is the first day of senior year. Time to get ready~!', 'displayname': 'Self', 'speaker': 'none', 'emotion': 'basic'} | 
+2026-03-23 11-14-21| Scene set to Day1Scene2 | 
+2026-03-23 11-14-21| set dialogue {'choices': [], 'type': 'text', 'text': 'Well, this is the computer science building. ', 'displayname': 'Self', 'speaker': 'none', 'emotion': 'basic'} | 
+2026-03-23 11-14-21| Scene set to Day1Scene3 | 
+2026-03-23 11-14-21| set dialogue {'choices': [], 'type': 'text', 'text': '...and if you use AI...well, AI can make a data-structure, but can it structure your life?', 'displayname': 'Prof. Brad Rivers', 'speaker': 'none', 'emotion': 'basic'} | 

@@ -70,5 +70,5 @@
             "type": "choice"
         }
     ],
-    "next_scene_default": "Day2Scene2"
+    "next_scene_default": "thanks"
 }

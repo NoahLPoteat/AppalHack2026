@@ -1,11 +1,11 @@
 {
     "name": "Day1Scene3",
-    "bg": "classroom_!.png",
+    "bg": "classroom_1.png",
     "lines": [
         {
             "choices": [],
             "type": "text",
-            "text": "...and if you use AI...well, AI can make a data-structure, but can it structure your life?"
+            "text": "...and if you use AI...well, AI can make a data-structure, but can it structure your life?",
             "displayname": "Prof. Brad Rivers",
             "speaker": "none",
             "emotion": "basic"

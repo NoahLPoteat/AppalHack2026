@@ -1,0 +1,6 @@
+2026-03-22 11-52-35| Log File made | 
+2026-03-22 11-52-37| Scene set to Day1Scene1 | 
+2026-03-22 11-52-37| Initiation finished, beginning game loop | 
+2026-03-22 11-52-37| set dialogue {'choices': [], 'type': 'text', 'text': 'Today is the first day of senior year. Time to get ready~!', 'displayname': 'Self', 'speaker': 'none', 'emotion': 'basic'} | 
+2026-03-22 11-52-48| Scene set to Day1Scene2 | 
+2026-03-22 11-52-48| set dialogue {'choices': [], 'type': 'text', 'text': 'Well, this is the computer science building. ', 'displayname': 'Self', 'speaker': 'none', 'emotion': 'basic'} | 

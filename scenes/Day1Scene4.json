@@ -1,21 +1,21 @@
 {
     "name": "Day1Scene4",
-    "bg": ".png",
+    "bg": "coffee_shop.png",
     "lines": [
         {
             "choices": [],
             "type": "text",
             "text": "*Enters Wired*",
             "displayname": "Self",
-            "speaker": "none",
+            "speaker": "(Self)",
             "emotion": "basic"
         },
         {
             "choices": [],
             "type": "text",
-            "text": "Uhm...may I please have an iced Dubai chocolate latte with oat m? UWU.",
+            "text": "Uhm...may I please have an iced Dubai chocolate latte with oat milk? UWU.",
             "displayname": "Self",
-            "speaker": "none",
+            "speaker": "",
             "emotion": "basic"
         },
         {
